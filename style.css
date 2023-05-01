@@ -1,0 +1,590 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.header-section{
+    padding: 2rem 10rem 2rem 10rem;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.brand-container{
+    width: fit-content;
+    height: auto;
+}
+.brand-logo{
+    width: fit-content;
+    height: auto;
+}
+.navigation-menu{
+    width: fit-content;
+    height: auto;
+}
+.unordered-list{
+    display: flex;
+    flex-direction: row;
+    column-gap: 1.5rem;
+    list-style: none;
+}
+.unordered-list li a{
+    text-decoration: none;
+    color: black;
+    transition-property: all;
+    transition-delay: 100ms;
+    transition-duration: 200ms;
+}
+.unordered-list li a:hover{
+    text-decoration: line-through;
+    font-weight: 600;
+    font-size: 1.1rem;
+}
+.hero-section{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    column-gap: 1rem;
+    padding: 0 5rem 0 5rem;
+}
+.left-hero-container{
+    width: 70%;
+    height: auto;
+    background-image: url("./Images/BG\ Image.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 2rem;
+    padding: 4rem;
+}
+.right-hero-container{
+    width: 30%;
+    height: auto;
+    border-radius: 2rem;
+    padding: 4rem;
+    background-image: url("./Images/DP.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.heading-text{
+    width: fit-content;
+    height: auto;
+    padding-bottom: 7rem;
+}
+.title-text{
+    font-size: 3.5rem;
+    font-weight: 1100;
+}
+.description-text{
+    width: fit-content;
+    height: auto;
+    padding-bottom: 7rem;
+}
+.description{
+    font-size: 1.5rem;
+}
+.button-sm-container{
+    width: fit-content;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    column-gap: 1rem;
+}
+.button-container{
+    width: fit-content;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    column-gap: 1rem;
+}
+.button{
+    background-color: #1e1e1e;
+    color: #ffffff;
+    padding: 1rem;
+    border-radius: 1.5rem;
+    font-size: 1.2rem;
+    border: none;
+    transition-property: all;
+    transition-duration: 200ms;
+    transition-delay: 100ms;
+    transition-timing-function: ease-in-out;
+}
+.button:hover{
+    background-color: #3e3e3e;
+}
+.resume-button{
+    background-color: rgb(194, 137, 30);
+    color: #ffffff;
+    padding: 1rem;
+    border-radius: 1.5rem;
+    font-size: 1.2rem;
+    border: none;
+    transition-property: all;
+    transition-duration: 200ms;
+    transition-delay: 100ms;
+    transition-timing-function: ease-in-out;
+}
+.resume-button:hover{
+    background-color: #46270a;
+}
+.sm-container{
+    width: fit-content;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    column-gap: 1rem;
+}
+.facebook img:hover{
+    transform: scale(2);
+}
+.twitter img:hover{
+    transform: scale(2);
+}
+.linkedin img:hover{
+    transform: scale(2);
+}
+.instagram img:hover{
+    transform: scale(2);
+}
+.behance img:hover{
+    transform: scale(2);
+}
+.first-row-container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    margin-top: 2rem;
+    column-gap: 2rem;
+    padding: 3rem;
+}
+.left-container{
+    border-radius: 2rem;
+    width: 50%;
+    height: 44rem;
+    color: white;
+    overflow: hidden;
+    font-weight: bolder;
+    margin-top: 4.5rem;
+    box-shadow: 2px 10px #3e3e3e;
+}
+.beatz-image{
+    background-image: url("./Images/Work/B3atz.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    padding: 4rem 4rem 0 5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    transition-duration: 100ms;
+}
+.beatz-image:hover{
+    transform: scale(1.2);
+}
+.right-container{
+    border-radius: 2rem;
+    width: 50%;
+    height: 44rem;
+    color: white;
+    overflow: hidden;
+    font-weight: bolder;
+    margin-top: 4.5rem;
+    box-shadow: 2px 10px #3e3e3e;
+}
+.medcloud-image{
+    background-image: url("./Images/Work/Med\ Cloud.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    padding: 4rem 4rem 0 5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    transition-duration: 100ms;
+}
+.medcloud-image:hover{
+    transform: scale(1.2);
+}
+.second-row-container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    margin-top: 2rem;
+    column-gap: 2rem;
+    padding: 3rem;
+}
+.leftt-container{
+    border-radius: 2rem;
+    width: 50%;
+    height: 44rem;
+    color: white;
+    overflow: hidden;
+    font-weight: bolder;
+    margin-top: 4.5rem;
+    box-shadow: 2px 10px #3e3e3e;
+}
+.dateen-image{
+    background-image: url("./Images/Work/Dateen.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    padding: 4rem 4rem 0 5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    transition-duration: 100ms;
+}
+.dateen-image:hover{
+    transform: scale(1.2);
+}
+.rightt-container{
+    border-radius: 2rem;
+    width: 50%;
+    height: 44rem;
+    color: white;
+    overflow: hidden;
+    font-weight: bolder;
+    margin-top: 4.5rem;
+    box-shadow: 2px 10px #3e3e3e;
+}
+.fathom-image{
+    background-image: url("./Images/Work/Fathom.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    padding: 4rem 4rem 0 5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    transition-duration: 100ms;
+}
+.fathom-image:hover{
+    transform: scale(1.2);
+}
+.third-row-container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    margin-top: 2rem;
+    column-gap: 2rem;
+    padding: 3rem;
+}
+.lefttt-container{
+    border-radius: 2rem;
+    width: 50%;
+    height: 44rem;
+    color: white;
+    overflow: hidden;
+    font-weight: bolder;
+    margin-top: 4.5rem;
+    box-shadow: 2px 10px #3e3e3e;
+}
+.tasky-image{
+    background-image: url("./Images/Work/Tasky.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    padding: 4rem 4rem 0 5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    transition-duration: 100ms;
+}
+.tasky-image:hover{
+    transform: scale(1.2);
+}
+.righttt-container{
+    border-radius: 2rem;
+    width: 50%;
+    height: 44rem;
+    color: white;
+    overflow: hidden;
+    font-weight: bolder;
+    margin-top: 4.5rem;
+    box-shadow: 2px 10px #3e3e3e;
+}
+.smarthealth-image{
+    background-image: url("./Images/Work/Smart\ Health.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    padding: 4rem 4rem 0 5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    transition-duration: 100ms;
+}
+.smarthealth-image:hover{
+    transform: scale(1.2);
+}
+.fourth-row-container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    margin-top: 2rem;
+    column-gap: 2rem;
+    padding: 3rem;
+}
+.leftttt-container{
+    border-radius: 2rem;
+    width: 50%;
+    height: 44rem;
+    color: white;
+    overflow: hidden;
+    font-weight: bolder;
+    margin-top: 4.5rem;
+    box-shadow: 2px 10px #3e3e3e;
+}
+.newt-image{
+    background-image: url("./Images/Work/Newt.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    padding: 4rem 4rem 0 5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    transition-duration: 100ms;
+}
+.newt-image:hover{
+    transform: scale(1.2);
+}
+.rightttt-container{
+    border-radius: 2rem;
+    width: 50%;
+    height: 44rem;
+    color: white;
+    overflow: hidden;
+    font-weight: bolder;
+    margin-top: 4.5rem;
+    box-shadow: 2px 10px #3e3e3e;
+}
+.ultralearn-image{
+    background-image: url("./Images/Work/Ultralearn.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    padding: 4rem 4rem 0 5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    transition-duration: 100ms;
+}
+.ultralearn-image:hover{
+    transform: scale(1.2);
+}
+.fifth-row-container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    margin-top: 2rem;
+    column-gap: 2rem;
+    padding: 3rem;
+}
+.lefttttt-container{
+    border-radius: 2rem;
+    width: 50%;
+    height: 44rem;
+    color: white;
+    overflow: hidden;
+    font-weight: bolder;
+    margin-top: 4.5rem;
+    box-shadow: 2px 10px #3e3e3e;
+}
+.flexinsure-image{
+    background-image: url("./Images/Work/flexinsure.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    padding: 4rem 4rem 0 5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    transition-duration: 100ms;
+}
+.flexinsure-image:hover{
+    transform: scale(1.2);
+}
+.righttttt-container{
+    border-radius: 2rem;
+    width: 50%;
+    height: 44rem;
+    color: white;
+    overflow: hidden;
+    font-weight: bolder;
+    margin-top: 4.5rem;
+    box-shadow: 2px 10px #3e3e3e;
+}
+.clientdorm-image{
+    background-image: url("./Images/Work/clientdorm.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    padding: 4rem 4rem 0 5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    transition-duration: 100ms;
+}
+.clientdorm-image:hover{
+    transform: scale(1.2);
+}
+
+.footer-container{
+    width: 100%;
+    height: auto;
+    padding: 5rem;
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url("./Images/BG\ Image.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 3rem;
+}
+.footer-text-title-container{
+    width: fit-content;
+    height: auto;
+    align-items: center;
+    padding: 1rem;
+}
+.footer-description-text-container{
+    width: fit-content;
+    height: auto;
+    align-items: center;
+    padding-bottom: 2.5rem;
+}
+.button-smm-container{
+    width: fit-content;
+    height: auto;
+    padding: 2rem 0 4rem 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 1.5rem;
+}
+.footer-text-title{
+    font-size: 3.5rem;
+    font-weight: 1100;
+}
+.foot-description-text{
+    font-size: 1.5rem;
+}
+.beatz{
+    font-size: 2rem;
+    font-weight: bolder;
+    color: white;
+}
+.beatz-image a{
+    text-decoration: none;
+}
+.medcloud{
+    font-size: 2rem;
+    font-weight: bolder;
+    color: white;
+}
+.medcloud-image a{
+    text-decoration: none;
+}
+.dateen{
+    font-size: 2rem;
+    font-weight: bolder;
+    color: white;
+}
+.dateen-image a{
+    text-decoration: none;
+}
+.fathom{
+    font-size: 2rem;
+    font-weight: bolder;
+    color: white;
+}
+.fathom-image a{
+    text-decoration: none;
+}
+.tasky{
+    font-size: 2rem;
+    font-weight: bolder;
+    color: white;
+}
+.tasky-image a{
+    text-decoration: none;
+}
+.smarthealth{
+    font-size: 2rem;
+    font-weight: bolder;
+    color: white;
+}
+.smarthealth-image a{
+    text-decoration: none;
+}
+.newt{
+    font-size: 2rem;
+    font-weight: bolder;
+    color: white;
+}
+.newt-image a{
+    text-decoration: none;
+}
+.ultralearn{
+    font-size: 2rem;
+    font-weight: bolder;
+    color: white;
+}
+.ultralearn-image a{
+    text-decoration: none;
+}
+.flexinsure{
+    font-size: 2rem;
+    font-weight: bolder;
+    color: white;
+}
+.flexinsure-image a{
+    text-decoration: none;
+}
+.clientdorm{
+    font-size: 2rem;
+    font-weight: bolder;
+    color: white;
+}
+.clientdorm-image a{
+    text-decoration: none;
+}
