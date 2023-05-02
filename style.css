@@ -477,7 +477,7 @@
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    border-radius: 3rem;
+    border-radius: 2rem;
 }
 .footer-text-title-container{
     width: fit-content;
@@ -587,4 +587,106 @@
 }
 .clientdorm-image a{
     text-decoration: none;
+}
+
+
+@media (max-width: 768px){
+    .brand-container{
+        display: none;
+    }
+    .navigation-menu{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    .hero-section{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        padding: 0 2rem 0 2rem;
+    }
+    .left-hero-container{
+        width: 100%;
+        padding: 1.5rem;
+    }
+    .button-sm-container{
+        display: flex;
+        flex-direction: column;
+    }
+    .button-container{
+        margin-bottom: 1.5rem;
+    }
+    .right-hero-container{
+        display: none;
+    }
+    .first-row-container{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .second-row-container{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }  
+    .third-row-container{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }  
+    .fourth-row-container{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .fifth-row-container{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .left-container{
+        width: 100%;
+    }
+    .leftt-container{
+        width: 100%;
+    }
+    .lefttt-container{
+        width: 100%;
+    }
+    .leftttt-container{
+        width: 100%;
+    }
+    .lefttttt-container{
+        width: 100%;
+    }
+    .right-container{
+        width: 100%;
+    }
+    .rightt-container{
+        width: 100%;
+    }
+    .righttt-container{
+        width: 100%;
+    }
+    .rightttt-container{
+        width: 100%;
+    }
+    .righttttt-container{
+        width: 100%;
+    }
+    .footer-container{
+        justify-content: center;
+        align-items: center;
+    }
+    .footer-text-title{
+        font-size: 2rem;
+    }
+    .foot-description-text{
+        font-size: 1.3rem;
+    }
+    .unordered-list{
+        font-size: 1.5rem;
+    }
 }
